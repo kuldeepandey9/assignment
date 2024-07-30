@@ -127,7 +127,6 @@
             url: '/tasks/'+id,
             type: 'PUT',
             data: {
-                name: 'Updated Task',
                 status: 1
             },
             success: function(response) {
